@@ -8,13 +8,15 @@ import { auth } from "./firebase";
 import Home from './Home';
 import Log from "./Log";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Tab } from '@mui/material';
 
 
 function App() {
   return (
     <Router>
-      <nav>
+      <nav align="center">
         <Link to="/"> Home </Link>
+        <Tab></Tab>
         <Link to="/login"> Login </Link>
       </nav>
       <Routes>
