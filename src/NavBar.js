@@ -10,6 +10,7 @@ function NavBar() {
                     <NavbarLinkContainer>
                         <NavbarLink to="/">Home</NavbarLink>
                         <NavbarLink to="/login">Login</NavbarLink>
+                        <NavbarLink to="/profile">Profile</NavbarLink>
                     </NavbarLinkContainer>
                 </LeftContainer>
             </NavbarInnerContainer>
