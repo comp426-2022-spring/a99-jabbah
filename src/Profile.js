@@ -25,10 +25,11 @@ function Profile() {
             const email = user.email;
 
         return (
-            <div>
+            <div className='profile-cont'>
                 Logged in as: {displayName} 
                 <t>{user?.email}</t>
-                <button onClick={deleteVerify}>
+                <br></br><br></br>
+                <button className="login-button" onClick={deleteVerify}>
                     Delete
                 </button>
             </div>
