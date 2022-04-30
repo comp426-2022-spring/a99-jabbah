@@ -66,7 +66,8 @@ function Log() {
             /></div>
           <br></br>
           <div>
-            <input className="login-style"
+            <input type="password"
+            className="login-style"
               placeholder="Password..."
               onChange={(event) => {
                 setRegisterPassword(event.target.value);
@@ -89,7 +90,8 @@ function Log() {
             /></div>
           <br />
           <div>
-            <input className="login-style"
+            <input type="password"
+            className="login-style"
               placeholder="Password..."
               onChange={(event) => {
                 setLoginPassword(event.target.value);
