@@ -6,7 +6,7 @@ The primary focus of this project is to showcase COVID-19 data such as infected 
 
 The dashboard also features authentication and account creation using our Firebase back-end. Users can create a profile and have their username displayed nicely on the profile page. Finally, they can choose to delete their account that's logged in our back-end if the user chooses to.
 
-## Available Scripts
+## Installation
 
 To launch the project, simply clone the repository, navigate to the main directory, and run the following npm commands to get going.
 
