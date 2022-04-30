@@ -36,9 +36,12 @@ function Profile() {
     } else {
         // No user is signed in.
         return (
-            <div>
-                PLEASE SIGNED IN!
+            <div className='please-sign-in-cont'>
+                <div className='please-sign-in'>
+                    PLEASE SIGN IN!
+                </div>
             </div>
+    
         )
     }
 }
