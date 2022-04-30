@@ -10,7 +10,7 @@ const CardInfo = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 
   return (
     <div className={styles.container}>
-        <Typography gutterBottom variant="h4" component="h2">Global</Typography>
+        <Typography gutterBottom variant="h4" component="h2" id={styles.global}>Global</Typography>
       <Grid container spacing={3} justify="center">
         <CardComponent
           className={styles.infected}
