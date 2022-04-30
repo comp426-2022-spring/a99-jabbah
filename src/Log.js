@@ -53,11 +53,12 @@ function Log() {
 
   return (
     <div className="App">
-      <div>
+      <div className="reg-login-cont">
+      <div className="register-cont">
         <h3> Register User </h3>
         <div>
-          <div>
-            <input
+          <div >
+            <input className="login-style"
               placeholder="Email..."
               onChange={(event) => {
                 setRegisterEmail(event.target.value);
@@ -65,22 +66,22 @@ function Log() {
             /></div>
           <br></br>
           <div>
-            <input
+            <input className="login-style"
               placeholder="Password..."
               onChange={(event) => {
                 setRegisterPassword(event.target.value);
               }}
             /></div>
         </div>
-        <br /><br />
-        <button onClick={register}> Create User</button>
+        <br />
+        <button className="login-button" onClick={register}> Create User</button>
       </div>
 
-      <div>
+      <div className="register-cont">
         <h3> Login </h3>
         <div>
           <div>
-            <input
+            <input className="login-style"
               placeholder="Email..."
               onChange={(event) => {
                 setLoginEmail(event.target.value);
@@ -88,22 +89,26 @@ function Log() {
             /></div>
           <br />
           <div>
-            <input
+            <input className="login-style"
               placeholder="Password..."
               onChange={(event) => {
                 setLoginPassword(event.target.value);
               }}
             /></div>
         </div>
-        <br /><br />
-        <button onClick={login}> Login</button>
+        <br />
+        <button className="login-button" onClick={login}> Login</button>
 
       </div>
 
+      </div>
+      <br></br>
+    <div className="signout-cont">
       <h4> User Logged In: </h4>
       <t>{user?.email}</t>
       <br /><br></br>
-      <button onClick={logout}> Sign Out </button>
+      <button className="login-button" onClick={logout}> Sign Out </button>
+    </div>
     </div>
   );
 }

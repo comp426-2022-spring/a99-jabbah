@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.login-style {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 1em;
+}
+
+.login-button{
+  background-color: #3D8ADD;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.register-cont{
+}
+
+.reg-login-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 100px;
+  font-size: 1.5em;;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signout-cont{
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
