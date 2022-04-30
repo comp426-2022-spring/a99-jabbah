@@ -20,3 +20,7 @@
 #global{
     margin-bottom: 1em;
 }
+
+#cardcont{
+    justify-content: center;
+}
